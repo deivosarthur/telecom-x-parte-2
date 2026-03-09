@@ -1,6 +1,6 @@
 
 
-# Telecom X - Predicción de Cancelación de Clientes (Churn)
+# Telecom X Parte 2 - Challenger Final- Predicción de Cancelación de Clientes (Churn)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
 ![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
