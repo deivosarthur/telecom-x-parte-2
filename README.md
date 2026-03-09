@@ -112,8 +112,12 @@ Además, Random Forest permite analizar la **importancia de las variables**, lo 
 
 ### Importancia de Variables (Random Forest)
 <img width="849" height="501" alt="image" src="https://github.com/user-attachments/assets/1dfe3603-3583-48f7-9946-f42883a343aa" />
+
 ### Gráfico Tenure vs Churn (boxplot)
 <img width="682" height="466" alt="image" src="https://github.com/user-attachments/assets/2db3224d-d40c-4c94-b087-73a5b850dc0e" />
+
+### Matriz de Confusión - Random Forest
+<img width="396" height="442" alt="image" src="https://github.com/user-attachments/assets/6a32ee7b-97f5-4c11-ad59-23a0a09546ef" />
 
 ---
 
