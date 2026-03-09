@@ -1,5 +1,30 @@
-# Telecom X - Predicción de Cancelación de Clientes (Churn)
 
+
+# Telecom X - Predicción de Cancelación de Clientes (Churn)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Challenge](https://img.shields.io/badge/Challenge-Telecom%20X-blue)
+![Status](https://img.shields.io/badge/Project-Completed-green)
+
+## 🧰 Tecnologías utilizadas
+
+<p align="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40"/>
+</p>
+
+## 📊 Modelos utilizados
+
+- Regresión Logística
+- Random Forest
+
+Ambos modelos fueron evaluados utilizando métricas como accuracy, precision, recall, F1-score y matriz de confusión.
+
+  
 ## 📌 Descripción del proyecto
 
 Este proyecto tiene como objetivo desarrollar modelos de Machine Learning capaces de predecir la cancelación de clientes (churn) en Telecom X.
@@ -146,11 +171,4 @@ telecom_churn_prediction.ipynb
 
 ---
 
-# 📚 Tecnologías utilizadas
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
