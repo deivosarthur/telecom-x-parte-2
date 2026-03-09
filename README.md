@@ -88,15 +88,29 @@ Esta separación permite evaluar el rendimiento del modelo en datos no utilizado
 
 ---
 
-# 🤖 Modelos de Machine Learning
+## 🤖 Modelos Evaluados
 
-Se implementaron dos modelos de clasificación:
+Para predecir la cancelación de clientes se entrenaron y evaluaron dos modelos de clasificación:
 
-### Regresión Logística
-Modelo lineal utilizado para estimar la probabilidad de cancelación en función de las variables del dataset. Este modelo requiere normalización de los datos.
+- **Regresión Logística**
+- **Random Forest**
 
-### Random Forest
-Modelo basado en múltiples árboles de decisión que permite capturar relaciones más complejas entre las variables.
+La Regresión Logística requiere normalización de los datos, por lo que se aplicó **StandardScaler** antes del entrenamiento.  
+Por otro lado, **Random Forest** no depende de la escala de los datos, por lo que se entrenó directamente sobre los datos originales.
+
+Los modelos fueron evaluados utilizando las siguientes métricas:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Matriz de confusión
+
+### Modelo Seleccionado
+
+El modelo **Random Forest** presentó un mejor desempeño general en comparación con la Regresión Logística, logrando capturar mejor las relaciones entre las variables del dataset.
+
+Además, Random Forest permite analizar la **importancia de las variables**, lo que facilita identificar los factores que influyen en la cancelación de clientes.
 
 ---
 
