@@ -1,17 +1,15 @@
-
-## 📊 Dataset
-El dataset utilizado corresponde a clientes de una empresa de telecomunicaciones e incluye variables demográficas, servicios contratados y cargos asociados.
-
-El objetivo es predecir la variable **Churn**, que indica si el cliente canceló o no el servicio.
-
-
-
 # Telecom X Parte 2 - Challenger Final- Predicción de Cancelación de Clientes (Churn)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
 ![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 ![Challenge](https://img.shields.io/badge/Challenge-Telecom%20X-blue)
 ![Status](https://img.shields.io/badge/Project-Completed-green)
+
+## 📊 Dataset
+El dataset utilizado corresponde a clientes de una empresa de telecomunicaciones e incluye variables demográficas, servicios contratados y cargos asociados.
+
+El objetivo es predecir la variable **Churn**, que indica si el cliente canceló o no el servicio.
+
 
 ## 🧰 Tecnologías utilizadas
 
@@ -112,6 +110,11 @@ El modelo **Random Forest** presentó un mejor desempeño general en comparació
 
 Además, Random Forest permite analizar la **importancia de las variables**, lo que facilita identificar los factores que influyen en la cancelación de clientes.
 
+### Importancia de Variables (Random Forest)
+<img width="849" height="501" alt="image" src="https://github.com/user-attachments/assets/1dfe3603-3583-48f7-9946-f42883a343aa" />
+### Gráfico Tenure vs Churn (boxplot)
+<img width="682" height="466" alt="image" src="https://github.com/user-attachments/assets/2db3224d-d40c-4c94-b087-73a5b850dc0e" />
+
 ---
 
 
@@ -126,6 +129,10 @@ Entre los principales hallazgos se destacan:
 - Clientes con **cargos mensuales elevados** tienden a cancelar con mayor frecuencia.
 
 Estos insights permiten comprender mejor los factores asociados a la cancelación.
+
+### Distribución de Cancelación de Clientes
+<img width="586" height="449" alt="image" src="https://github.com/user-attachments/assets/e955dd19-56e3-4960-b14a-7d0497267a00" />
+
 
 ---
 
