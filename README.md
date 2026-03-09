@@ -1,4 +1,10 @@
 
+## 📊 Dataset
+El dataset utilizado corresponde a clientes de una empresa de telecomunicaciones e incluye variables demográficas, servicios contratados y cargos asociados.
+
+El objetivo es predecir la variable **Churn**, que indica si el cliente canceló o no el servicio.
+
+
 
 # Telecom X Parte 2 - Challenger Final- Predicción de Cancelación de Clientes (Churn)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -17,12 +23,6 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40"/>
 </p>
 
-## 📊 Modelos utilizados
-
-- Regresión Logística
-- Random Forest
-
-Ambos modelos fueron evaluados utilizando métricas como accuracy, precision, recall, F1-score y matriz de confusión.
 
   
 ## 📌 Descripción del proyecto
@@ -114,19 +114,6 @@ Además, Random Forest permite analizar la **importancia de las variables**, lo 
 
 ---
 
-# 📈 Métricas de evaluación
-
-Los modelos fueron evaluados utilizando las siguientes métricas:
-
-- Accuracy (Exactitud)
-- Precision
-- Recall
-- F1-score
-- Matriz de confusión
-
-Estas métricas permiten analizar el desempeño del modelo y su capacidad para identificar correctamente clientes con riesgo de cancelación.
-
----
 
 # 📊 Análisis exploratorio (EDA)
 
@@ -174,7 +161,7 @@ Estas estrategias pueden contribuir a reducir la cancelación de clientes y mejo
 
 2. Instalar las bibliotecas necesarias:
 ```python
-pip install pandas numpy matplotlib seaborn scikit-learn'
+pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 3. Abrir el notebook:
